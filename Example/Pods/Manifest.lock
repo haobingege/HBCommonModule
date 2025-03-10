@@ -1,0 +1,16 @@
+PODS:
+  - HBCommonModule (0.1.0)
+
+DEPENDENCIES:
+  - HBCommonModule (from `../`)
+
+EXTERNAL SOURCES:
+  HBCommonModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBCommonModule: d1fa5901aa648788272e186e87e08dd81c563f36
+
+PODFILE CHECKSUM: 93f56598a42370fcd3ef4b75e805b2066f4a8e72
+
+COCOAPODS: 1.16.2

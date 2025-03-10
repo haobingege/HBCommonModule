@@ -1,0 +1,6 @@
+framework module HBCommonModule {
+  umbrella header "HBCommonModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -58,15 +58,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		746114806BA1ED737CBC2F53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		746114806BA1ED737CBC2F53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A62BBAD29B1CCF9926EAD697 /* Pods-HBCommonModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBCommonModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HBCommonModule_Tests/Pods-HBCommonModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF416338D39EBF04CBBAF31F /* Pods-HBCommonModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBCommonModule_Example.release.xcconfig"; path = "Target Support Files/Pods-HBCommonModule_Example/Pods-HBCommonModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B013A76747EF5B21D8A25205 /* HBCommonModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HBCommonModule.podspec; path = ../HBCommonModule.podspec; sourceTree = "<group>"; };
+		B013A76747EF5B21D8A25205 /* HBCommonModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HBCommonModule.podspec; path = ../HBCommonModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3F239762F595206E72C55C1 /* Pods-HBCommonModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBCommonModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-HBCommonModule_Example/Pods-HBCommonModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C4705649C0C4DB2D13E1591F /* Pods_HBCommonModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBCommonModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69ED3C826AB7F2AAAE55FAA /* Pods_HBCommonModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBCommonModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E81AB5B7C16625CF8CBC890D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E81AB5B7C16625CF8CBC890D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				A62BBAD29B1CCF9926EAD697 /* Pods-HBCommonModule_Tests.debug.xcconfig */,
 				40C8D320139F54F9818C3253 /* Pods-HBCommonModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
