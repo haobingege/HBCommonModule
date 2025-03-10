@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 #  开源协议
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
 #  作者、邮箱号
-  s.author           = { 'haobin' => 'chb18@ifreegroup.com' }
+  s.author           = { 'haobin' => '510104724@qq.com' }
 #  库下载地址
   s.source           = { :git => 'https://github.com/haobingege/HBCommonModule.git', :tag => s.version.to_s }
 #  社交网址
