@@ -22,7 +22,7 @@ pod 'HBCommonModule'
 
 ## Author
 
-haobingege, chb18@ifreegroup.com
+haobingege, 510104724@qq.com
 
 ## License
 

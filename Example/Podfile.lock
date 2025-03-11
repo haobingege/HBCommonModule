@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (5.10.2)
+  - HBCommonModule (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - HBCommonModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  HBCommonModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  HBCommonModule: 611c1ec22b300ba6c8799faae82f869071d8bb8f
+
+PODFILE CHECKSUM: 3be5206dd906eade5fea14739231441a9c67cc1e
+
+COCOAPODS: 1.16.2
